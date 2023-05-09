@@ -6,13 +6,6 @@
         "The Matched Annotation from NCBI and EMBL-EBI is a collaboration between Ensembl/GENCODE and RefSeq. The MANE Select is a default transcript per human gene that is representative of biology, well-supported, expressed and highly-conserved. This transcript set matches GRCh38 and is 100% identical between RefSeq and Ensembl/GENCODE for 5' UTR, CDS, splicing and 3'UTR.",
         ""
     ],
-    "mane.select2": [
-        "MANE Select",
-        "select",
-        0,
-        "Some old and outdated definition.",
-        "Some outdated very long description: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    ],
     "mane.plus_clinical": [
         "MANE Plus Clinical",
         "plus_clinical",
