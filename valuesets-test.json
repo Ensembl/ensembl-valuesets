@@ -1,212 +1,1253 @@
 {
-    "mane.select": [
+    "mane.select.1": [
         "MANE Select",
         "select",
+        "The MANE Select transcript is a single model chosen as a default choice for each human protein-coding gene that is representative of biology, well supported, expressed and highly conserved",
+        "The Matched Annotation from NCBI and EMBL-EBI is a collaboration between Ensembl/GENCODE and RefSeq. The MANE Select is a is a single model chosen as the default transcript for a human protein-coding gene. The MANE Select is considered to be the model which is best representative of the biology of the gene, according to metrics considering the level of supporting evidence, transcription expression, protein isoform conservation and knowledge of clinical variants. This transcript set matches GRCh38 and is 100% identical between RefSeq and Ensembl/GENCODE for 5' UTR, CDS, splicing and 3'UTR.",
         1,
-        "The Matched Annotation from NCBI and EMBL-EBI is a collaboration between Ensembl/GENCODE and RefSeq. The MANE Select is a default transcript per human gene that is representative of biology, well-supported, expressed and highly-conserved. This transcript set matches GRCh38 and is 100% identical between RefSeq and Ensembl/GENCODE for 5' UTR, CDS, splicing and 3'UTR.",
+        "MANE_Select",
         ""
     ],
-    "mane.select2": [
+    "mane.select.2": [
         "MANE Select",
         "select",
-        0,
         "Some old and outdated definition.",
-        "Some outdated very long description: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Some outdated very long description: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        0,
+	"MANE_Select",
+	""
     ],
-    "mane.plus_clinical": [
+    "mane.plus_clinical.1": [
         "MANE Plus Clinical",
         "plus_clinical",
+        "Transcripts in the MANE Plus Clinical set are additional transcripts per locus neccessary to support clinical variant reporting",
+        "Transcripts in the MANE Plus Clinical set are additional protein-coding transcripts considered necessary to complement the MANE Select model in a gene. For example transcripts containing known Pathogenic or Likely Pathogenic clinical variants not reportable using the MANE Select set. Note there may be additional clinically relevant transcripts in the wider RefSeq and Ensembl/GENCODE sets but not yet in MANE.",
         1,
-        "Transcripts in the MANE Plus Clinical set are additional transcripts per locus necessary to support clinical variant reporting, for example transcripts containing known Pathogenic or Likely Pathogenic clinical variants not reportable using the MANE Select set. Note there may be additional clinically relevant transcripts in the wider RefSeq and Ensembl/GENCODE sets but not yet in MANE.",
+        "MANE_Plus_Clinical",
         ""
     ],
-    "alphabet.dna": [
+    "tsl.level_1.1": [
+        "TSL level 1",
+        "TSL",
+        "Transcript support level 1",
+        "A transcript where all splice junctions are supported by at least one non-suspect mRNA.",
+        1,
+        "TSL",
+        "tsl1"
+    ],
+    "tsl.level_2.1": [
+        "TSL level 2",
+        "TSL",
+        "Transcript support level 2",
+        "A transcript where the best supporting mRNA is flagged as suspect or the support is from multiple ESTs",
+        1,
+        "TSL",
+        "tsl2"
+    ],
+    "tsl.level_3.1": [
+        "TSL level 3",
+        "TSL",
+        "Transcript support level 3",
+        "A transcript where the only support is from a single EST",
+        1,
+        "TSL",
+        "tsl3"
+    ],
+    "tsl.level_4.1": [
+        "TSL level 4",
+        "TSL",
+        "Transcript support level 4",
+        "A transcript where the best supporting EST is flagged as suspect",
+        1,
+        "TSL",
+        "tsl4"
+    ],
+    "tsl.level_5.1": [
+        "TSL level 5",
+        "TSL",
+        "Transcript support level 5",
+        "A transcript where no single transcript supports the model structure.",
+        1,
+        "TSL",
+        "tsl5"
+    ],
+    "tsl.na.1": [
+        "TSL NA",
+        "TSL",
+        "Transcript support level not applicable",
+        "A transcript that was not analysed for TSL.",
+        1,
+        "TSL",
+        "tslNA"
+    ],
+    "appris.principal1.1": [
+        "APPRIS P1",
+        "appris",
+        "Transcript model containing a protein isoform classified as PRINCIPAL:1 by APPRIS.",
+        "Transcript(s) expected to code for the main functional protein isoform based solely on the core modules in the APPRIS. Multiple PRINCIPAL:1 transcripts can be called in a gene due to alterative splicing within UTRs.",
+        1,
+        "appris",
+        "principal1"
+    ],
+    "appris.principal2.1": [
+        "APPRIS P2",
+        "appris",
+        "Transcript model containing a protein isoform classified as PRINCIPAL:2 by APPRIS.",
+        "When the APPRIS modules cannot clearly select a single protein-coding isoform for a PRINCIPAL:1 transcript out of a pool of multiple candidates, a PRINCIPAL:2 model may instead be selected. This is model containing a protein isoform with a raw TRIFID score that is substantially higher than that for all other candidate models.",
+        1,
+        "appris",
+        "principal2"
+    ],
+    "appris.principal3.1": [
+        "APPRIS P3",
+        "appris",
+        "Transcript model containing a protein isoform classified as PRINCIPAL:3 by APPRIS.",
+        "When the APPRIS modules cannot clearly select a single protein-coding isoform for a PRINCIPAL:1 or :2 transcript out of a pool of multiple candidates, a PRINCIPAL:3 model may instead be selected. This is model containing a protein isoform that has more proteomics support than other candidates.",
+        1,
+        "appris",
+        "principal3"
+    ],
+    "appris.principal4.1": [
+        "APPRIS P4",
+        "appris",
+        "Transcript model containing a protein isoform classified as PRINCIPAL:4 by APPRIS.",
+        "When the APPRIS modules cannot clearly select a single protein-coding isoform for a PRINCIPAL:1, :2 or :3 transcript out of a pool of multiple candidates, a PRINCIPAL:4 model may instead be selected. This is model containing a protein isoform that has the highest raw TRIFID score compared with other candiates.",
+        1,
+        "appris",
+        "principal4"
+    ],
+    "appris.principal5.1": [
+        "APPRIS P5",
+        "appris",
+        "Transcript model containing a protein isoform classified as PRINCIPAL:5 by APPRIS.",
+        "When the APPRIS modules cannot clearly select a single protein-coding isoform for a PRINCIPAL:1, :2, :3 or :4 transcript out of a pool of multiple candidates, a PRINCIPAL:5 model may instead be selected. This is model containing a protein isoform that has the longest CDS length compared with other candidates.",
+        1,
+        "appris",
+        "principal5"
+    ],
+    "appris.alternative1.1": [
+        "APPRIS ALT1",
+        "appris",
+        "Transcript model containing a protein isoform classified as ALT1 by APPRIS.",
+        "For a gene in which the APPRIS core modules selected a PRINCIPAL:2, :3, :4 or : 5 model, an ALT1 is a candidate transcript model with a protein isoform that is conserved in at least three tested non-primate species.",
+        1,
+        "appris",
+        "alternative1"
+    ],
+    "appris.alternative2.1": [
+        "APPRIS ALT2",
+        "appris",
+        "Transcript model containing a protein isoform classified as ALT2 by APPRIS.",
+        "For genes in which the APPRIS core modules selected a PRINCIPAL:2, :3, :4 or : 5 model, an ALT2 is a candidate transcript model with a protein isoform that is not deemed to be conserved in at least three tested non-primate species.",
+        1,
+        "appris",
+        "alternative2"
+    ],
+    "gencode.gencode_basic.1": [
+        "GENCODE basic",
+        "gencode_basic",
+        "GENCODE basic is a subset of representative transcripts in the GENCODE geneset defined by length and completeness.",
+        "GENCODE Basic represents a subset of transcripts in the GENCODE gene annotation. For protein coding genes GENCODE Basic transcripts will only include full length transcripts with the 'protein coding' biotype that contain a complete CDS. For lncRNA genes, GENCODE Basic inlcudes the minimal set of transcripts that capture more than 85% of the introns at the locus. For other biotypes; pseudogene, sRNA and IG/TR the single transcript model at the locus will be tagged as GENCODE Basic.",
+        1,
+        "gencode_basic",
+        ""
+    ],
+    "canonical.ensembl_canonical.1": [
+        "Ensembl canonical",
+        "is_canonical",
+        "A single representative transcript chosen for each gene.",
+        "This transcript is the chosen canonical for its gene. For protein-coding genes, this is the MANE_Select transcript if there is one. If not, the canonical transcript is chosen by a pipeline that takes into account several criteria including transcript support (TSL), functional importance (APPRIS), representation in RefSeq and UniProt databases, length and coverage of pathogenic variants, where available. For non protein-coding genes, it is usually the transcript with the longest sequence and the same biotype as its parent gene.",
+        1,
+        "is_canonical",
+        ""
+    ],
+    "alphabet.dna.1": [
         "DNA alphabet",
         "dna_alphabet",
-        1,
         "IUPAC notation for DNA sequence",
-        "Adenine, guanine, cytosine, and thymine, represented by A, G, C, and T inline with the IUPAC specification."
+        "Adenine, guanine, cytosine, and thymine, represented by A, G, C, and T inline with the IUPAC specification.",
+        1,
+        "",
+        ""
     ],
-    "alphabet.rna": [
+    "alphabet.rna.1": [
         "RNA alphabet",
         "rna_alphabet",
-        1,
         "IUPAC notation for RNA sequence",
-        "Guanine, uracil, adenine, and cytosine, represented  by G, U, A, and C inline with the IUPAC specification."
+        "Guanine, uracil, adenine, and cytosine, represented  by G, U, A, and C inline with the IUPAC specification.",
+        1,
+        "",
+        ""
     ],
-    "alphabet.amino_acid": [
+    "alphabet.amino_acid.1": [
         "Amino acid notation",
         "amino_acid_alphabet",
-        1,
         "IUPAC notation for amino acids",
-        "One letter representation of amino acids inline with the IUPAC specification."
-    ],
-    "external_reference_assignment_type.checksum": [
-        "Checksum",
-        "checksum",
+        "One letter representation of amino acids inline with the IUPAC specification.",
         1,
         "",
         ""
     ],
-    "external_reference_assignment_type.coordinate_overlap": [
-        "Coordinate overlap",
-        "coordinate_overlap",
-        1,
+    "gene_biotype.3prime_overlapping_ncrna.1": [
+        "3prime overlapping ncRNA",
+        "3prime_overlapping_ncrna",
+        "Long noncoding RNA gene where experimental data strongly supports the existence of short non-coding transcripts transcribed from the 3'UTR",
         "",
-        ""
+        1,
+        "3prime_overlapping_ncrna",
+        "gene"
     ],
-    "external_reference_assignment_type.dependent": [
-        "Dependent",
-        "dependent",
-        1,
+    "gene_biotype.antisense.1": [
+        "antisense",
+        "antisense",
+        "Long noncoding RNA gene that overlaps the genomic span (exonic and/or intronic) of a protein-coding locus on the opposite strand",
         "",
-        ""
+        1,
+        "antisense",
+        "gene"
     ],
-    "external_reference_assignment_type.direct": [
-        "Direct",
-        "direct",
-        1,
+    "gene_biotype.antisense_rna.1": [
+        "antisense RNA",
+        "antisense_rna",
+        "Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA",
         "",
-        ""
+        1,
+        "antisense_rna",
+        "gene"
     ],
-    "external_reference_assignment_type.inferred_pair": [
-        "Inferred pair",
-        "inferred_pair",
-        1,
+    "gene_biotype.guide_rna.1": [
+        "guide RNA",
+        "guide_rna",
+        "A short 3'-uridylated RNA that can form a duplex with a stretch of mature edited mRNA",
         "",
-        ""
+        1,
+        "guide_rna",
+        "gene"
     ],
-    "external_reference_assignment_type.misc": [
-        "Misc",
-        "misc",
-        1,
+    "gene_biotype.ig_c_gene.1": [
+        "IG C gene",
+        "ig_c_gene",
+        "Immunoglobulin (IG), constant (C) gene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_c_gene",
+        "gene"
     ],
-    "external_reference_assignment_type.none": [
-        "None",
-        "none",
-        1,
+    "gene_biotype.ig_c_pseudogene.1": [
+        "IG C pseudogene",
+        "ig_c_pseudogene",
+        "Immunoglobulin (IG), constant (C) pseudogene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_c_pseudogene",
+        "gene"
     ],
-    "external_reference_assignment_type.probe": [
-        "Probe",
-        "probe",
-        1,
+    "gene_biotype.ig_d_gene.1": [
+        "IG D gene",
+        "ig_d_gene",
+        "Immunoglobulin (IG), diversity (D) gene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_d_gene",
+        "gene"
     ],
-    "external_reference_assignment_type.projection": [
-        "Projection",
-        "projection",
-        1,
+    "gene_biotype.ig_j_gene.1": [
+        "IG J gene",
+        "ig_j_gene",
+        "Immunoglobulin (IG), joining (J) gene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_j_gene",
+        "gene"
     ],
-    "external_reference_assignment_type.sequence_match": [
-        "Sequence match",
-        "sequence_match",
-        1,
+    "gene_biotype.ig_j_pseudogene.1": [
+        "IG J pseudogene",
+        "ig_j_pseudogene",
+        "Immunoglobulin (IG), joining (J) pseudogene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_j_pseudogene",
+        "gene"
     ],
-    "external_reference_assignment_type.unmapped": [
-        "Unmapped",
-        "unmapped",
-        1,
+    "gene_biotype.ig_pseudogene.1": [
+        "IG pseudogene",
+        "ig_pseudogene",
+        "Immunoglobulin (IG), pseudogene. Imported or annotated according to the IMGT classification",
         "",
-        ""
+        1,
+        "ig_pseudogene",
+        "gene"
     ],
-    "tsl.level_1": [
-        "TSL level 1",
+    "gene_biotype.ig_v_gene.1": [
+        "IG V gene",
+        "ig_v_gene",
+        "Immunoglobulin (IG), variable (V) gene. Imported or annotated according to the IMGT classification",
         "",
         1,
-        "Transcript support level 1",
-        "A transcript where all splice junctions are supported by at least one non-suspect mRNA."
+        "ig_v_gene",
+        "gene"
     ],
-    "tsl.level_2": [
-        "TSL level 2",
+    "gene_biotype.ig_v_pseudogene.1": [
+        "IG V pseudogene",
+        "ig_v_pseudogene",
+        "Immunoglobulin (IG), variable (V) pseudogene. Imported or annotated according to the IMGT classification",
         "",
         1,
-        "Transcript support level 2",
-        "A transcript where the best supporting mRNA is flagged as suspect or the support is from multiple ESTs"
+        "ig_v_pseudogene",
+        "gene"
     ],
-    "tsl.level_3": [
-        "TSL level 3",
+    "gene_biotype.lincrna_gene.1": [
+        "lincRNA gene",
+        "lincrna_gene",
+        "Long, intervening non-coding RNA transcript that does not overlap with genomic coordinates of a coding gene or pseudogene",
         "",
         1,
-        "Transcript support level 3",
-        "A transcript where the only support is from a single EST"
+        "lincrna_gene",
+        "gene"
     ],
-    "tsl.level_4": [
-        "TSL level 4",
+    "gene_biotype.lncrna_gene.1": [
+        "lncRNA gene",
+        "lncrna_gene",
+        "Long non-coding RNA gene. A generic biotype that replaced the following biotypes: 3prime_overlapping_ncRNA, antisense, bidirectional_promoter_lncRNA, lincRNA, macro_lncRNA, non_coding, processed_transcript, sense_intronic and sense_overlapping",
         "",
         1,
-        "Transcript support level 4",
-        "A transcript where the best supporting EST is flagged as suspect"
+        "lncrna_gene",
+        "gene"
     ],
-    "tsl.level_5": [
-        "TSL level 5",
+    "gene_biotype.mirna_gene.1": [
+        "miRNA gene",
+        "mirna_gene",
+        "MicroRNA gene. Predicted using sequences from Rfam and miRBase",
         "",
         1,
-        "Transcript support level 5",
-        "A transcript where no single transcript supports the model structure."
+        "mirna_gene",
+        "gene"
     ],
-    "tsl.na": [
-        "TSL NA",
+    "gene_biotype.misc_rna_gene.1": [
+        "misc RNA gene",
+        "misc_rna_gene",
+        "Miscellaneous RNA gene. A non-coding RNA that cannot be classified. Predicted using sequences from Rfam",
         "",
         1,
-        "Transcript support level not applicable",
-        "A transcript that was not analysed for TSL."
+        "misc_rna_gene",
+        "gene"
     ],
-    "appris.principal1": [
-        "APPRIS P1",
+    "gene_biotype.mt_rrna_gene.1": [
+        "mt rRNA gene",
+        "mt_rrna_gene",
+        "Mitochondrially encoded ribosomal RNA gene. Predicted using sequences from Rfam",
         "",
         1,
-        "",
-        "Transcript(s) expected to code for the main functional isoform based solely on the core modules in the APPRIS"
+        "mt_rrna_gene",
+        "gene"
     ],
-    "appris.principal2": [
-        "APPRIS P2",
+    "gene_biotype.mt_trna_gene.1": [
+        "mt tRNA gene",
+        "mt_trna_gene",
+        "Mitochondrially encoded transfer RNA gene. Predicted using sequences from Rfam",
         "",
         1,
-        "",
-        "Where the APPRIS core modules are unable to choose a clear principal variant (approximately 25% of human protein coding genes), the database chooses two or more of the CDS variants as \"candidates\" to be the principal variant."
+        "mt_trna_gene",
+        "gene"
     ],
-    "appris.principal3": [
-        "APPRIS P3",
+    "gene_biotype.ncrna.1": [
+        "ncRNA",
+        "ncrna",
+        "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product",
         "",
         1,
-        "",
-        "Where the APPRIS core modules are unable to choose a clear principal variant and there more than one of the variants have distinct CCDS identifiers, APPRIS selects the variant with lowest CCDS identifier as the principal variant. The lower the CCDS identifier, the earlier it was annotated."
+        "ncrna",
+        "gene"
     ],
-    "appris.principal4": [
-        "APPRIS P4",
+    "gene_biotype.nontranslating_cds.1": [
+        "nontranslating CDS",
+        "nontranslating_cds",
+        "An imported 'protein-coding' gene that does not translate due to one or more unannotated stop codons",
         "",
         1,
-        "",
-        "Where the APPRIS core modules are unable to choose a clear principal CDS and there is more than one variant with a distinct (but consecutive) CCDS identifiers, APPRIS selects the longest CCDS isoform as the principal variant"
+        "nontranslating_cds",
+        "gene"
     ],
-    "appris.principal5": [
-        "APPRIS P5",
+    "gene_biotype.pirna_gene.1": [
+        "piRNA gene",
+        "pirna_gene",
+        "A gene that encodes for an piwi associated RNA.",
         "",
         1,
-        "",
-        "Where the APPRIS core modules are unable to choose a clear principal variant and none of the candidate variants are annotated by CCDS, APPRIS selects the longest of the candidate isoforms as the principal variant."
+        "pirna_gene",
+        "gene"
     ],
-    "appris.alternative1": [
-        "APPRIS ALT1",
+    "gene_biotype.polymorphic_pseudogene.1": [
+        "polymorphic pseudogene",
+        "polymorphic_pseudogene",
+        "Pseudogene that is disrupted in the reference genome but present as an intact protein-coding gene in other haplotypes",
         "",
         1,
-        "",
-        "For genes in which the APPRIS core modules are unable to choose a clear principal isoform, the ALT1 is the candidate transcript(s) models that is conserved in at least three tested species."
+        "polymorphic_pseudogene",
+        "gene"
     ],
-    "appris.alternative2": [
-        "APPRIS ALT2",
+    "gene_biotype.pre_mirna.1": [
+        "pre miRNA",
+        "pre_mirna",
+        "The 60-70 nt region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure",
         "",
         1,
+        "pre_mirna",
+        "gene"
+    ],
+    "gene_biotype.processed_pseudogene.1": [
+        "processed pseudogene",
+        "processed_pseudogene",
+        "Pseudogene derived via retrotransposition of the mRNA from a functional protein-coding gene",
         "",
-        "For genes in which the APPRIS core modules are unable to choose a clear principal isoform, the ALT1 is the candidate transcript(s) models that appear to be conserved in fewer than three tested species."
+        1,
+        "processed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.protein_coding_gene.1": [
+        "protein coding gene",
+        "protein_coding_gene",
+        "Gene that is known or predicted to encode a stable and/or functional protein",
+        "",
+        1,
+        "protein_coding_gene",
+        "gene"
+    ],
+    "gene_biotype.pseudogene.1": [
+        "pseudogene",
+        "pseudogene",
+        "Locus derived from a protein-coding gene containing disabling mutations or truncations and believed to not encode a stable and or functional protein",
+        "",
+        1,
+        "pseudogene",
+        "gene"
+    ],
+    "gene_biotype.ribozyme_gene.1": [
+        "ribozyme gene",
+        "ribozyme_gene",
+        "Ribozyme gene. An RNA enzyme that catalyzes a chemical reaction. Predicted using sequences from Rfam",
+        "",
+        1,
+        "ribozyme_gene",
+        "gene"
+    ],
+    "gene_biotype.rna_subunit_of_the_rnase.1": [
+        "RNA subunit of the RNase",
+        "rna_subunit_of_the_rnase",
+        "RNA subunit of the RNase mitochondrial RNA processing (MRP)",
+        "",
+        1,
+        "rna_subunit_of_the_rnase",
+        "gene"
+    ],
+    "gene_biotype.rnase_p_rna.1": [
+        "RNase P RNA",
+        "rnase_p_rna",
+        "The RNA component of endoribonuclease Ribonuclease P found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria",
+        "",
+        1,
+        "rnase_p_rna",
+        "gene"
+    ],
+    "gene_biotype.rrna_gene.1": [
+        "rRNA gene",
+        "rrna_gene",
+        "Ribosomal RNA gene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "rrna_gene",
+        "gene"
+    ],
+    "gene_biotype.rrna_pseudogene.1": [
+        "rRNA pseudogene",
+        "rrna_pseudogene",
+        "Ribosomal RNA pseudogene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "rrna_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.scarna_gene.1": [
+        "scaRNA gene",
+        "scarna_gene",
+        "Small Cajal body-specific RNA gene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "scarna_gene",
+        "gene"
+    ],
+    "gene_biotype.scrna_gene.1": [
+        "scRNA gene",
+        "scrna_gene",
+        "Small cytoplasmic RNA gene",
+        "",
+        1,
+        "scrna_gene",
+        "gene"
+    ],
+    "gene_biotype.sense_intronic_gene.1": [
+        "sense intronic gene",
+        "sense_intronic_gene",
+        "Long non-coding RNA gene contained within introns of a coding gene but does not overlap any exons",
+        "",
+        1,
+        "sense_intronic_gene",
+        "gene"
+    ],
+    "gene_biotype.sense_overlapping_gene.1": [
+        "sense overlapping gene",
+        "sense_overlapping_gene",
+        "Long non-coding RNA gene that contains a coding gene in one of its introns on the same strand",
+        "",
+        1,
+        "sense_overlapping_gene",
+        "gene"
+    ],
+    "gene_biotype.snorna_gene.1": [
+        "snoRNA gene",
+        "snorna_gene",
+        "Small nucleolar RNA.gene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "snorna_gene",
+        "gene"
+    ],
+    "gene_biotype.snrna_gene.1": [
+        "snRNA gene",
+        "snrna_gene",
+        "Small nuclear RNA gene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "snrna_gene",
+        "gene"
+    ],
+    "gene_biotype.srna_gene.1": [
+        "sRNA gene",
+        "srna_gene",
+        "Small RNA gene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "srna_gene",
+        "gene"
+    ],
+    "gene_biotype.plant_signal_recognition_particle_rna.1": [
+        "plant signal recognition particle RNA",
+        "plant_signal_recognition_particle_rna",
+        "Plant signal recognition particle RNA",
+        "",
+        1,
+        "plant_signal_recognition_particle_rna",
+        "gene"
+    ],
+    "gene_biotype.tec.1": [
+        "TEC",
+        "tec",
+        "To be Experimentally Confirmed. Prospective transcript that requires more supporting evidence before being considered as a bona fide model",
+        "",
+        1,
+        "tec",
+        "gene"
+    ],
+    "gene_biotype.tr_c_gene.1": [
+        "TR C gene",
+        "tr_c_gene",
+        "T cell receptor (TR), constant (C) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_c_gene",
+        "gene"
+    ],
+    "gene_biotype.tr_d_gene.1": [
+        "TR D gene",
+        "tr_d_gene",
+        "T cell receptor (TR), diversity (D) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_d_gene",
+        "gene"
+    ],
+    "gene_biotype.tr_j_gene.1": [
+        "TR J gene",
+        "tr_j_gene",
+        "T cell receptor (TR), joining (J) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_j_gene",
+        "gene"
+    ],
+    "gene_biotype.tr_j_pseudogene.1": [
+        "TR J pseudogene",
+        "tr_j_pseudogene",
+        "T cell receptor (TR), variable (J) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_j_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.tr_v_gene.1": [
+        "TR V gene",
+        "tr_v_gene",
+        "T cell receptor (TR), variable (V) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_v_gene",
+        "gene"
+    ],
+    "gene_biotype.tr_v_pseudogene.1": [
+        "TR V pseudogene",
+        "tr_v_pseudogene",
+        "T cell receptor (TR), variable (V) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_v_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.transcribed_processed_pseudogene.1": [
+        "transcribed processed pseudogene",
+        "transcribed_processed_pseudogene",
+        "Processed pseudogene with experimental support for transcription",
+        "",
+        1,
+        "transcribed_processed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.transcribed_unitary_pseudogene.1": [
+        "transcribed unitary pseudogene",
+        "transcribed_unitary_pseudogene",
+        "Unitary pseusogene with experimental support for transcription",
+        "",
+        1,
+        "transcribed_unitary_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.transcribed_unprocessed_pseudogene.1": [
+        "transcribed unprocessed pseudogene",
+        "transcribed_unprocessed_pseudogene",
+        "Unprocessed pseudogene with experiemental evidence of transcription",
+        "",
+        1,
+        "transcribed_unprocessed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.translated_processed_pseudogene.1": [
+        "translated processed pseudogene",
+        "translated_processed_pseudogene",
+        "Processed pseudogene with experimental evidence of translation",
+        "",
+        1,
+        "translated_processed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.translated_unprocessed_pseudogene.1": [
+        "translated unprocessed pseudogene",
+        "translated_unprocessed_pseudogene",
+        "Unprocessed pseudogene with experiemental evidence of translation",
+        "",
+        1,
+        "translated_unprocessed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.transposable_element.1": [
+        "transposable element",
+        "transposable_element",
+        "A transposon or insertion sequence. An element that can insert in a variety of DNA sequences",
+        "",
+        1,
+        "transposable_element",
+        "gene"
+    ],
+    "gene_biotype.trna_gene.1": [
+        "tRNA gene",
+        "trna_gene",
+        "A noncoding RNA that binds to a specific amino acid to allow that amino acid to be used by the ribosome during translation of RNA",
+        "",
+        1,
+        "trna_gene",
+        "gene"
+    ],
+    "gene_biotype.trna_pseudogene.1": [
+        "tRNA pseudogene",
+        "trna_pseudogene",
+        "Noncoding descendant of a tRNA, part of a pseudogene",
+        "",
+        1,
+        "trna_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.unitary_pseudogene.1": [
+        "unitary pseudogene",
+        "unitary_pseudogene",
+        "Non-functional copy of an ancestral functional protein-coding gene",
+        "",
+        1,
+        "unitary_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.unprocessed_pseudogene.1": [
+        "unprocessed pseudogene",
+        "unprocessed_pseudogene",
+        "Pseudogene derived via complete or partial duplication of a functional protein-coding gene",
+        "",
+        1,
+        "unprocessed_pseudogene",
+        "gene"
+    ],
+    "gene_biotype.vault_rna_gene.1": [
+        "vault RNA gene",
+        "vault_rna_gene",
+        "Short non coding RNA gene that forms part of the vault ribonucleoprotein complex",
+        "",
+        1,
+        "vault_rna_gene",
+        "gene"
+    ],
+    "transcript_biotype.3prime_overlapping_ncrna.1": [
+        "3prime overlapping ncRNA",
+        "3prime_overlapping_ncrna",
+        "Transcript where experimental data strongly supports the existence of short non-coding transcripts transcribed from the 3'UTR",
+        "",
+        1,
+        "3prime_overlapping_ncrna",
+        "transcript"
+    ],
+    "transcript_biotype.antisense.1": [
+        "antisense",
+        "antisense",
+        "Transcript that overlaps the genomic span (exonic and/or intronic) of a protein-coding locus on the opposite strand",
+        "",
+        1,
+        "antisense",
+        "transcript"
+    ],
+    "transcript_biotype.antisense_rna.1": [
+        "antisense RNA",
+        "antisense_rna",
+        "Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA",
+        "",
+        1,
+        "antisense_rna",
+        "transcript"
+    ],
+    "transcript_biotype.guide_rna.1": [
+        "guide RNA",
+        "guide_rna",
+        "A short 3'-uridylated RNA that can form a duplex with a stretch of mature edited mRNA",
+        "",
+        1,
+        "guide_rna",
+        "transcript"
+    ],
+    "transcript_biotype.ig_c_gene.1": [
+        "IG C gene",
+        "ig_c_gene",
+        "Immunoglobulin (IG), constant (C). Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_c_gene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_c_pseudogene.1": [
+        "IG C pseudogene",
+        "ig_c_pseudogene",
+        "Immunoglobulin (IG), constant (C) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_c_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_d_gene.1": [
+        "IG D gene",
+        "ig_d_gene",
+        "Immunoglobulin (IG), diversity (D). Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_d_gene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_j_gene.1": [
+        "IG J gene",
+        "ig_j_gene",
+        "Immunoglobulin (IG), joining (J). Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_j_gene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_j_pseudogene.1": [
+        "IG J pseudogene",
+        "ig_j_pseudogene",
+        "Immunoglobulin (IG), joining (J) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_j_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_pseudogene.1": [
+        "IG pseudogene",
+        "ig_pseudogene",
+        "Immunoglobulin (IG), pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_v_gene.1": [
+        "IG V gene",
+        "ig_v_gene",
+        "Immunoglobulin (IG), variable (V). Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_v_gene",
+        "transcript"
+    ],
+    "transcript_biotype.ig_v_pseudogene.1": [
+        "IG V pseudogene",
+        "ig_v_pseudogene",
+        "Immunoglobulin (IG), variable (V) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "ig_v_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.linc_rna.1": [
+        "linc RNA",
+        "linc_rna",
+        "Long, intervening non-coding RNA transcript that does not overlap within the start or end genomic coordinates its coding gene or pseudogene",
+        "",
+        1,
+        "linc_rna",
+        "transcript"
+    ],
+    "transcript_biotype.lncrna.1": [
+        "lncRNA",
+        "lncrna",
+        "Long non-coding RNA transcript. A generic biotype that replaced the following biotypes: 3prime_overlapping_ncRNA, antisense, bidirectional_promoter_lncRNA, lincRNA, macro_lncRNA, non_coding, processed_transcript, sense_intronic and sense_overlapping",
+        "",
+        1,
+        "lncrna",
+        "transcript"
+    ],
+    "transcript_biotype.mirna.1": [
+        "miRNA",
+        "mirna",
+        "MicroRNA. Predicted using sequences from Rfam and miRBase",
+        "",
+        1,
+        "mirna",
+        "transcript"
+    ],
+    "transcript_biotype.misc_rna.1": [
+        "misc RNA",
+        "misc_rna",
+        "Miscellaneous RNA. A non-coding RNA that cannot be classified. Predicted using sequences from Rfam",
+        "",
+        1,
+        "misc_rna",
+        "transcript"
+    ],
+    "transcript_biotype.mt_rrna.1": [
+        "mt rRNA",
+        "mt_rrna",
+        "Mitochondrially encoded ribosomal RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "mt_rrna",
+        "transcript"
+    ],
+    "transcript_biotype.mt_trna.1": [
+        "mt tRNA",
+        "mt_trna",
+        "Mitochondrially encoded transfer RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "mt_trna",
+        "transcript"
+    ],
+    "transcript_biotype.ncrna.1": [
+        "ncRNA",
+        "ncrna",
+        "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product",
+        "",
+        1,
+        "ncrna",
+        "transcript"
+    ],
+    "transcript_biotype.nonsense_mediated_decay.1": [
+        "nonsense mediated decay",
+        "nonsense_mediated_decay",
+        "Coding transcript with a stop codon >50bp upstream of a splice site",
+        "",
+        1,
+        "nonsense_mediated_decay",
+        "transcript"
+    ],
+    "transcript_biotype.non_stop_decay.1": [
+        "non stop decay",
+        "non_stop_decay",
+        "Coding transcript that has polyA features (including signal) without a preceeding stop codon in the CDS, i.e. a non-genomic polyA tail attached directly to the CDS without 3' UTR. These transcripts are subject to degradation",
+        "",
+        1,
+        "non_stop_decay",
+        "transcript"
+    ],
+    "transcript_biotype.nontranslating_cds.1": [
+        "nontranslating CDS",
+        "nontranslating_cds",
+        "An imported 'protein-coding' gene that does not translate due to one or more unannotated stop codons",
+        "",
+        1,
+        "nontranslating_cds",
+        "transcript"
+    ],
+    "transcript_biotype.pirna.1": [
+        "piRNA",
+        "pirna",
+        "A small non coding RNA, part of a silencing system that prevents the spreading of selfish genetic elements",
+        "",
+        1,
+        "pirna",
+        "transcript"
+    ],
+    "transcript_biotype.polymorphic_pseudogene.1": [
+        "polymorphic pseudogene",
+        "polymorphic_pseudogene",
+        "Disrupted protein-coding transcript at a locus that is disrupted in the reference genome but present as an intact protein-coding gene in other haplotypes",
+        "",
+        1,
+        "polymorphic_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.pre_mirna.1": [
+        "pre miRNA",
+        "pre_mirna",
+        "The 60-70 nt region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure",
+        "",
+        1,
+        "pre_mirna",
+        "transcript"
+    ],
+    "transcript_biotype.processed_pseudogene.1": [
+        "processed pseudogene",
+        "processed_pseudogene",
+        "Pseudogene derived via retrotransposition of the mRNA from a functional protein-coding gene",
+        "",
+        1,
+        "processed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.processed_transcript.1": [
+        "processed transcript",
+        "processed_transcript",
+        "Transcript at a protein-coding gene for which no CDS can be defined and contains no retained introns",
+        "",
+        1,
+        "processed_transcript",
+        "transcript"
+    ],
+    "transcript_biotype.protein_coding.1": [
+        "protein coding",
+        "protein_coding",
+        "Transcript that is known or predicted to encode a stable and/or functional protein",
+        "",
+        1,
+        "protein_coding",
+        "transcript"
+    ],
+    "transcript_biotype.pseudogene.1": [
+        "pseudogene",
+        "pseudogene",
+        "Copy of a protein-coding gene containing disabling mutations and believed to not encode a stable and or functional protein",
+        "",
+        1,
+        "pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.retained_intron.1": [
+        "retained intron",
+        "retained_intron",
+        "A transcript at a protein-coding gene that contains retained intronic sequence within its CDS",
+        "",
+        1,
+        "retained_intron",
+        "transcript"
+    ],
+    "transcript_biotype.ribozyme_gene.1": [
+        "ribozyme gene",
+        "ribozyme_gene",
+        "Ribozyme. An RNA enzyme that catalyzes a chemical reaction. Predicted using sequences from Rfam and miRBase",
+        "",
+        1,
+        "ribozyme_gene",
+        "transcript"
+    ],
+    "transcript_biotype.rna_subunit_of_the_rnase.1": [
+        "RNA subunit of the RNase",
+        "rna_subunit_of_the_rnase",
+        "RNA subunit of the RNase mitochondrial RNA processing (MRP)",
+        "",
+        1,
+        "rna_subunit_of_the_rnase",
+        "transcript"
+    ],
+    "transcript_biotype.rnase_p_rna.1": [
+        "RNase P RNA",
+        "rnase_p_rna",
+        "The RNA component of endoribonuclease Ribonuclease P found in archaea, bacteria and eukarya as well as chloroplasts and mitochondria",
+        "",
+        1,
+        "rnase_p_rna",
+        "transcript"
+    ],
+    "transcript_biotype.rrna_gene.1": [
+        "rRNA gene",
+        "rrna_gene",
+        "Ribosomal RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "rrna_gene",
+        "transcript"
+    ],
+    "transcript_biotype.rrna_pseudogene.1": [
+        "rRNA pseudogene",
+        "rrna_pseudogene",
+        "Ribosomal RNA pseudogene. Predicted using sequences from Rfam",
+        "",
+        1,
+        "rrna_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.scarna_gene.1": [
+        "scaRNA gene",
+        "scarna_gene",
+        "Small Cajal body-specific RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "scarna_gene",
+        "transcript"
+    ],
+    "transcript_biotype.scrna_gene.1": [
+        "scRNA gene",
+        "scrna_gene",
+        "Small cytoplasmic RNA",
+        "",
+        1,
+        "scrna_gene",
+        "transcript"
+    ],
+    "transcript_biotype.sense_intronic.1": [
+        "sense intronic",
+        "sense_intronic",
+        "Long non-coding RNA  transcript contained within introns of a coding gene but does not overlap any exons",
+        "",
+        1,
+        "sense_intronic",
+        "transcript"
+    ],
+    "transcript_biotype.sense_overlapping.1": [
+        "sense overlapping",
+        "sense_overlapping",
+        "Long non-coding RNA transcript that contains a coding gene in one of its introns on the same strand",
+        "",
+        1,
+        "sense_overlapping",
+        "transcript"
+    ],
+    "transcript_biotype.snorna.1": [
+        "snoRNA",
+        "snorna",
+        "Small nucleolar RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "snorna",
+        "transcript"
+    ],
+    "transcript_biotype.snrna.1": [
+        "snRNA",
+        "snrna",
+        "Small nuclear RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "snrna",
+        "transcript"
+    ],
+    "transcript_biotype.srna.1": [
+        "sRNA",
+        "srna",
+        "Small RNA. Predicted using sequences from Rfam",
+        "",
+        1,
+        "srna",
+        "transcript"
+    ],
+    "transcript_biotype.plant_signal_recognition_particle_rna.1": [
+        "plant signal recognition particle RNA",
+        "plant_signal_recognition_particle_rna",
+        "Plant signal recognition particle RNA",
+        "",
+        1,
+        "plant_signal_recognition_particle_rna",
+        "transcript"
+    ],
+    "transcript_biotype.tec.1": [
+        "TEC",
+        "tec",
+        "To be Experimentally Confirmed. Single exon lncRNA  that requires additional support for existence before being designated as lncRNA",
+        "",
+        1,
+        "tec",
+        "transcript"
+    ],
+    "transcript_biotype.transcribed_processed_pseudogene.1": [
+        "transcribed processed pseudogene",
+        "transcribed_processed_pseudogene",
+        "Processed pseudogene with experimental support for transcription",
+        "",
+        1,
+        "transcribed_processed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.transcribed_unitary_pseudogene.1": [
+        "transcribed unitary pseudogene",
+        "transcribed_unitary_pseudogene",
+        "Unitary pseusogene with experimental support for transcription",
+        "",
+        1,
+        "transcribed_unitary_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.transcribed_unprocessed_pseudogene.1": [
+        "transcribed unprocessed pseudogene",
+        "transcribed_unprocessed_pseudogene",
+        "Unprocessed pseudogene with experiemental evidence of transcription",
+        "",
+        1,
+        "transcribed_unprocessed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.translated_processed_pseudogene.1": [
+        "translated processed pseudogene",
+        "translated_processed_pseudogene",
+        "Processed pseudogene with experiemental evidence of translation",
+        "",
+        1,
+        "translated_processed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.translated_unprocessed_pseudogene.1": [
+        "translated unprocessed pseudogene",
+        "translated_unprocessed_pseudogene",
+        "Unprocessed pseudogene with experiemental evidence of translation",
+        "",
+        1,
+        "translated_unprocessed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.transposable_element.1": [
+        "transposable element",
+        "transposable_element",
+        "A transposon or insertion sequence. An element that can insert in a variety of DNA sequences",
+        "",
+        1,
+        "transposable_element",
+        "transcript"
+    ],
+    "transcript_biotype.trna.1": [
+        "tRNA",
+        "trna",
+        "Transfer RNA serving as a physical linik between mRNA and amino acid sequence of proteins. Has two regions of fundamental functional importance: the anti-codon responsible for specific mRNA codon recognition and the 3' end, where the tRNA's corresponding amino acid is attached",
+        "",
+        1,
+        "trna",
+        "transcript"
+    ],
+    "transcript_biotype.trna_pseudogene.1": [
+        "tRNA pseudogene",
+        "trna_pseudogene",
+        "Noncoding descendant of a tRNA, part of a pseudogene",
+        "",
+        1,
+        "trna_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_c_gene.1": [
+        "TR C gene",
+        "tr_c_gene",
+        "T cell receptor (TR), constant (C) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_c_gene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_d_gene.1": [
+        "TR D gene",
+        "tr_d_gene",
+        "T cell receptor (TR), diversity (D) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_d_gene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_j_gene.1": [
+        "TR J gene",
+        "tr_j_gene",
+        "T cell receptor (TR), joining (J) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_j_gene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_j_pseudogene.1": [
+        "TR J pseudogene",
+        "tr_j_pseudogene",
+        "T cell receptor (TR), variable (J) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_j_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_v_gene.1": [
+        "TR V gene",
+        "tr_v_gene",
+        "T cell receptor (TR), variable (V) gene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_v_gene",
+        "transcript"
+    ],
+    "transcript_biotype.tr_v_pseudogene.1": [
+        "TR V pseudogene",
+        "tr_v_pseudogene",
+        "T cell receptor (TR), variable (V) pseudogene. Imported or annotated according to the IMGT classification",
+        "",
+        1,
+        "tr_v_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.unitary_pseudogene.1": [
+        "unitary pseudogene",
+        "unitary_pseudogene",
+        "Non-functional copy of an ancestral functional protein-coding gene",
+        "",
+        1,
+        "unitary_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.unprocessed_pseudogene.1": [
+        "unprocessed pseudogene",
+        "unprocessed_pseudogene",
+        "Pseudogene derived via complete of partial duplication of a functional protein-coding gene",
+        "",
+        1,
+        "unprocessed_pseudogene",
+        "transcript"
+    ],
+    "transcript_biotype.vault_rna_gene.1": [
+        "vault RNA gene",
+        "vault_rna_gene",
+        "Short non coding RNA that forms part of the vault ribonucleoprotein complex",
+        "",
+        1,
+        "vault_rna_gene",
+        "transcript"
     ]
 }
