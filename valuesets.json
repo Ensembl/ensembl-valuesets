@@ -157,7 +157,7 @@
         "dna_alphabet",
         "IUPAC notation for DNA sequence",
         "Adenine, guanine, cytosine, and thymine, represented by A, G, C, and T inline with the IUPAC specification.",
-        1,
+        "",
         "",
         ""
     ],
@@ -166,7 +166,7 @@
         "rna_alphabet",
         "IUPAC notation for RNA sequence",
         "Guanine, uracil, adenine, and cytosine, represented  by G, U, A, and C inline with the IUPAC specification.",
-        1,
+        "",
         "",
         ""
     ],
@@ -175,7 +175,7 @@
         "amino_acid_alphabet",
         "IUPAC notation for amino acids",
         "One letter representation of amino acids inline with the IUPAC specification.",
-        1,
+        "",
         "",
         ""
     ],
@@ -1240,5 +1240,419 @@
         1,
         "vault_rna_gene",
         "transcript"
+    ],
+    "clinvar_clin_sig.risk_factor.1": [
+        "risk factor",
+        "risk_factor",
+        "The variant is reported to be risk factor for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "risk_factor"
+    ],
+    "clinvar_clin_sig.benign.1": [
+        "benign",
+        "benign",
+        "The variant is reported to be benign for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "benign"
+    ],
+    "clinvar_clin_sig.uncertain_significance.1": [
+        "uncertain significance",
+        "uncertain_significance",
+        "The variant is reported to be uncertain significance for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "uncertain_significance"
+    ],
+    "clinvar_clin_sig.likely_benign.1": [
+        "likely benign",
+        "likely_benign",
+        "The variant is reported to be likely benign for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "likely_benign"
+    ],
+    "clinvar_clin_sig.pathogenic.1": [
+        "pathogenic",
+        "pathogenic",
+        "The variant is reported to be pathogenic for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "pathogenic"
+    ],
+    "clinvar_clin_sig.likely_pathogenic.1": [
+        "likely pathogenic",
+        "likely_pathogenic",
+        "The variant is reported to be likely pathogenic for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "likely_pathogenic"
+    ],
+    "clinvar_clin_sig.affects.1": [
+        "affects",
+        "affects",
+        "The variant is reported to be affects for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "affects"
+    ],
+    "clinvar_clin_sig.association.1": [
+        "association",
+        "association",
+        "The variant is reported to be association for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "association"
+    ],
+    "clinvar_clin_sig.confers_sensitivity.1": [
+        "confers sensitivity",
+        "confers_sensitivity",
+        "The variant is reported to be confers sensitivity for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "confers_sensitivity"
+    ],
+    "clinvar_clin_sig.drug_response.1": [
+        "drug response",
+        "drug_response",
+        "The variant is reported to be drug response for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "drug_response"
+    ],
+    "clinvar_clin_sig.histocompatibility.1": [
+        "histocompatibility",
+        "histocompatibility",
+        "The variant is reported to be histocompatibility for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "histocompatibility"
+    ],
+    "clinvar_clin_sig.not_provided.1": [
+        "not provided",
+        "not_provided",
+        "The variant is reported to be not provided for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "not_provided"
+    ],
+    "clinvar_clin_sig.other.1": [
+        "other",
+        "other",
+        "The variant is reported to be other for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "other"
+    ],
+    "clinvar_clin_sig.protective.1": [
+        "protective",
+        "protective",
+        "The variant is reported to be protective for a particular disease.",
+        "",
+        1,
+        "clinvar_clin_sig",
+        "protective"
+    ],
+    "dbsnp_clin_sig.drug_response .1": [
+        "drug response",
+        "drug_response",
+        "The variant is reported to be drug response  for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "drug_response"
+    ],
+    "dbsnp_clin_sig.histocompatibility.1": [
+        "histocompatibility",
+        "histocompatibility",
+        "The variant is reported to be histocompatibility for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "histocompatibility"
+    ],
+    "dbsnp_clin_sig.non_pathogenic.1": [
+        "non pathogenic",
+        "non_pathogenic",
+        "The variant is reported to be non pathogenic for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "non_pathogenic"
+    ],
+    "dbsnp_clin_sig.other.1": [
+        "other",
+        "other",
+        "The variant is reported to be other for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "other"
+    ],
+    "dbsnp_clin_sig.pathogenic.1": [
+        "pathogenic",
+        "pathogenic",
+        "The variant is reported to be pathogenic for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "pathogenic"
+    ],
+    "dbsnp_clin_sig.probable_non_pathogenic.1": [
+        "probable non pathogenic",
+        "probable_non_pathogenic",
+        "The variant is reported to be probable non pathogenic for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "probable_non_pathogenic"
+    ],
+    "dbsnp_clin_sig.probable_pathogenic.1": [
+        "probable pathogenic",
+        "probable_pathogenic",
+        "The variant is reported to be probable pathogenic for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "probable_pathogenic"
+    ],
+    "dbsnp_clin_sig.unknown.1": [
+        "unknown",
+        "unknown",
+        "The variant is reported to be unknown for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "unknown"
+    ],
+    "dbsnp_clin_sig.untested.1": [
+        "untested",
+        "untested",
+        "The variant is reported to be untested for a particular disease.",
+        "",
+        1,
+        "dbsnp_clin_sig",
+        "untested"
+    ],
+    "dgva_clin_sig.association.1": [
+        "association",
+        "association",
+        "The variant is reported to be association for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "association"
+    ],
+    "dgva_clin_sig.benign.1": [
+        "Benign",
+        "benign",
+        "The variant is reported to be Benign for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "benign"
+    ],
+    "dgva_clin_sig.likely_benign.1": [
+        "likely benign",
+        "likely_benign",
+        "The variant is reported to be likely benign for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "likely_benign"
+    ],
+    "dgva_clin_sig.likely_pathogenic.1": [
+        "likely pathogenic",
+        "likely_pathogenic",
+        "The variant is reported to be likely pathogenic for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "likely_pathogenic"
+    ],
+    "dgva_clin_sig.not_provided.1": [
+        "not provided",
+        "not_provided",
+        "The variant is reported to be not provided for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "not_provided"
+    ],
+    "dgva_clin_sig.not_tested.1": [
+        "Not tested",
+        "not_tested",
+        "The variant is reported to be Not tested for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "not_tested"
+    ],
+    "dgva_clin_sig.pathogenic.1": [
+        "Pathogenic",
+        "pathogenic",
+        "The variant is reported to be Pathogenic for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "pathogenic"
+    ],
+    "dgva_clin_sig.risk_factor.1": [
+        "risk factor",
+        "risk_factor",
+        "The variant is reported to be risk factor for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "risk_factor"
+    ],
+    "dgva_clin_sig.uncertain_significance.1": [
+        "Uncertain Significance",
+        "uncertain_significance",
+        "The variant is reported to be Uncertain Significance for a particular disease.",
+        "",
+        1,
+        "dgva_clin_sig",
+        "uncertain_significance"
+    ],
+    "population_type.regional.1": [
+        "regional",
+        "regional",
+        "Samples collected in a geographical region",
+        "",
+        1,
+        "population_type",
+        "regional"
+    ],
+    "population_type.cases.1": [
+        "cases",
+        "cases",
+        "Samples from individuals with a specific disease",
+        "",
+        1,
+        "population_type",
+        "cases"
+    ],
+    "sift_prediction.deleterious.1": [
+        "deleterious",
+        "deleterious",
+        "",
+        "",
+        1,
+        "sift_prediction",
+        "deleterious"
+    ],
+    "sift_prediction.deleterious_low_confidence.1": [
+        "deleterious - low confidence",
+        "deleterious_low_confidence",
+        "",
+        "",
+        1,
+        "sift_prediction",
+        "deleterious_low_confidence"
+    ],
+    "sift_prediction.tolerated.1": [
+        "tolerated",
+        "tolerated",
+        "",
+        "",
+        1,
+        "sift_prediction",
+        "tolerated"
+    ],
+    "sift_prediction.tolerated_low_confidence.1": [
+        "tolerated - low confidence",
+        "tolerated_low_confidence",
+        "",
+        "",
+        1,
+        "sift_prediction",
+        "tolerated_low_confidence"
+    ],
+    "polyphen_prediction.benign.1": [
+        "benign",
+        "benign",
+        "",
+        "",
+        1,
+        "polyphen_prediction",
+        "benign"
+    ],
+    "polyphen_prediction.possibly_damaging.1": [
+        "possibly damaging",
+        "possibly_damaging",
+        "",
+        "",
+        1,
+        "polyphen_prediction",
+        "possibly_damaging"
+    ],
+    "polyphen_prediction.probably_damaging.1": [
+        "probably damaging",
+        "probably_damaging",
+        "",
+        "",
+        1,
+        "polyphen_prediction",
+        "probably_damaging"
+    ],
+    "polyphen_prediction.unknown.1": [
+        "unknown",
+        "unknown",
+        "",
+        "",
+        1,
+        "polyphen_prediction",
+        "unknown"
+    ],
+    "population_qc_filter.pass.1": [
+        "PASS",
+        "pass",
+        "",
+        "",
+        1,
+        "population_qc_filter",
+        "pass"
+    ],
+    "variant_relation.upstream.1": [
+        "upstream",
+        "upstream",
+        "",
+        "",
+        1,
+        "variant_relation",
+        "upstream"
+    ],
+    "variant_relation.downstream.1": [
+        "downstream",
+        "downstream",
+        "",
+        "",
+        1,
+        "variant_relation",
+        "downstream"
+    ],
+    "variant_relation.overlaps.1": [
+        "overlaps",
+        "overlaps",
+        "",
+        "",
+        1,
+        "variant_relation",
+        "overlaps"
     ]
 }
